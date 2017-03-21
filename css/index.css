@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    margin-top: 25px;
+}
+
+#logo {
+    width: 64px;
+}
+
+#headerTitle {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer {
+    font-size: 8px;
+    text-decoration: none;
+    color: black;
+}
