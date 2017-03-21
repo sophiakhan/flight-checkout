@@ -23,6 +23,21 @@ header {
     font-size: 30px;
 }
 
+#spaceText {
+    color: #F38D68;
+}
+
+main .background {
+    background: url(../img/nasa-naut.jpg);
+    background-size: cover;
+    padding: 100px;
+    margin-top: 25px;
+}
+
+main form {
+    
+}
+
 footer {
     font-size: 8px;
     text-decoration: none;
