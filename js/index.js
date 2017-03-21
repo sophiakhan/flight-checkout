@@ -10,5 +10,19 @@ $(document).ready(function() {
 //   });
 
 
+    $('.colorPicker').minicolors({
+        theme: 'hidden'
+    });
+
+    $('#modalButton').on('click', function() {
+        $('#modal').removeClass('hidden');
+    });
+
+     $('.overlay-close').on('click', function(e) {
+        $('#modal').addClass('hidden');
+    });
+
+
+
 });
 

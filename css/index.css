@@ -34,8 +34,31 @@ main .background {
     margin-top: 25px;
 }
 
-main form {
-    
+.overlay-background {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.overlay-background.hidden {
+    opacity: 0;
+}
+
+.overlay {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+    background-color: white;
+    width: 50vw;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+    padding: 20px 30px;
 }
 
 footer {
