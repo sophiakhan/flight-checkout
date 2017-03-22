@@ -2,6 +2,9 @@ $(document).ready(function() {
     
     $('form').css({color: 'white'});
 
+    // also not working
+    // $("#logo").stick_in_parent();
+
     $(".date").flatpickr();
 
     // not working

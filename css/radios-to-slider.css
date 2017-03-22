@@ -49,13 +49,13 @@
     position: absolute;
     display: block;
     cursor: pointer;
-    color: #5e5e5e;
+    color: white;
     text-align: center;
 }
 
-.slider-label-active {
+/*.slider-label-active {
     font-weight: bold;
-}
+}*/
 
 .radios-to-slider.medium .slider-label {
     top: 50px;
@@ -66,7 +66,7 @@
 /* Slider bar */
 
 .radios-to-slider .slider-bar {
-    background-color: #00b4f1;
+    background-color: #F38D68;
     float: left;
     height: 100%;
     width: 0;
@@ -97,7 +97,7 @@
 
 .slider-knob {
     float: right;
-    background-color: #0977B5;
+    background-color: #EE6C4D;
 }
 
 .radios-to-slider.medium .slider-knob {
