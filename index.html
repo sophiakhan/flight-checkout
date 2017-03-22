@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/flatpickr/dist/flatpickr.min.css">
-    <link rel="stylesheet" href="css/red.css" />
      <link rel="stylesheet" href="css/jquery.minicolors.css" />
+     <link rel="stylesheet" href="css/radios-to-slider.css" />
     <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
@@ -57,10 +57,29 @@
                             </p>
                         </div>
                         <div class="form-group">
+                             <label for="passNumber" class="col-sm-2"># Adults:</label>
+                            <p class="col-sm-offset-1 col-sm-9" id="passNumber">
+                                <input type="number" class="form-control passengers" />
+                            </p>
+                        </div>
+                        <label for="radios">Speed:</label>
+                        <div id="radios">
+                            <input id="slow" name="options" type="radio">
+                            <label for="slow">5 km/s</label>
+                            <input id="medium" name="options" type="radio">
+                            <label for="medium">15 km/s</label>
+                            <input id="fast" name="options" type="radio" checked>
+                            <label for="fast">45 km/s</label>
+                            <input id="faster" name="options" type="radio">
+                            <label for="faster">95 km/s</label>
+                            <input id="super" name="options" type="radio">
+                            <label for="super">155 km/s</label>
+                        </div>
+                        <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-9">
                             <div class="checkbox">
                                 <label>
-                                <input type="checkbox" class="redCheck"> Upgrade to first class
+                                <input type="checkbox" /> Upgrade to first class
                                 </label>
                             </div>
                             </div>
@@ -82,7 +101,7 @@
                 <button type="button" class="overlay-close btn btn-danger btn-sm pull-right">X</button>
                 <h1>Thank you.</h1>
                 <h3>Please enjoy your trip to outer space.</h3>
-                <p><strong>Confirmation #:</strong>5004569-A</p>
+                <p><strong>Confirmation #:</strong> 5004569-A</p>
             </div>
         </div>
     </main>
@@ -97,9 +116,10 @@
 
     
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="js/icheck.js"></script>
     <script src="https://unpkg.com/flatpickr"></script>
+    <script src="js/jquery.powerRanger.js"></script>
     <script src="js/jquery.minicolors.js"></script>
+    <script src="js/jquery.radios-to-slider.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>

@@ -4,14 +4,15 @@ $(document).ready(function() {
 
     $(".date").flatpickr();
 
-
-//     $('input').iCheck({
-//     checkboxClass: 'icheckbox_flat',
-//   });
-
+    // not working
+    //$(".passengers").powerRangeIt();
 
     $('.colorPicker').minicolors({
         theme: 'hidden'
+    });
+
+    $('#radios').radiosToSlider({
+        fitContainer: true,
     });
 
     $('#modalButton').on('click', function() {
